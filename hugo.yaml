@@ -65,8 +65,8 @@ params:
   description: "A technical blog about Linux, networking, containers, homelab, and software."
   author: "shoganaich"
   keywords: [Blog, Technical, Linux, Docker]
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images:
+    - "images/og.png"
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -104,7 +104,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   homeInfoParams:
-    Title: "Cats, Cables & Containers"
+    Title: "CATs, Cables & Containers"
     Content: >
         - A public notebook on security, infrastructure, and homelab tinkering. I write about Linux, self-hosting, Docker and Compose projects, networking labs, and security tools, along with SDR, HackRF, Flipper Zero, and NFC/RFID experiments. I also share what I’m learning through programming projects and scripts.
 
