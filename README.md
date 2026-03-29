@@ -67,12 +67,42 @@ Output is generated into `public/`.
 
 ## Deploy (example)
 
-Build locally and sync to the server:
+### Serve with Nginx (Docker)
+
+This repo can be served as a static site using an Nginx container that mounts the Hugo build output (`public/`).
+
+#### Files
+- `docker-compose.yml` runs the Nginx container
+- `nginx/default.conf` contains the Nginx server block
+- `deploy.sh` builds the site into `public/`
+
+#### Start Nginx
 ```bash
-hugo
-rsync -av --delete public/ user@your-vm:/opt/blog/public/
+cd /opt/cats-cables-containers
+docker compose up -d
 ```
 
+By default the site is available at:
+- `http://localhost:8080/`
+
+#### Deploy / update content
+Run a manual deploy (pull repo + restart nginx):
+
+```bash
+cd /opt/cats-cables-containers
+bash deploy.sh
+```
+
+#### Auto-deploy (cron)
+Run the setup script once to install a cron job that periodically runs `deploy.sh` and keeps the container up:
+
+```bash
+cd /opt/cats-cables-containers
+sudo bash setup.sh
+```
+
+Logs:
+- `/var/log/cats-cables-containers-deploy.log`
 ## License
 
 Code in this repository is licensed under the MIT License.
