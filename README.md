@@ -29,7 +29,7 @@ This is not meant to be perfect documentation or a polished tutorial. I prefer m
 - `content/` contains posts and pages (Markdown)
 - `static/` contains static assets (favicons, images, etc.)
 - `layouts/` contains template overrides (if/when needed)
-- `hugo.toml` or `config.toml` contains site configuration
+- `hugo.yml` contains site configuration
 - `public/` contains generated output (build artifact)
 
 ## Stack
