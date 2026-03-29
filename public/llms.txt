@@ -1,0 +1,8 @@
+# Cats, Cables & Containers
+- [About](http://localhost:1313/about/)
+
+## Blogs
+- [Hello World: Why Cats, Cables & Containers 1](http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-1/)
+- [Hello World: Why Cats, Cables & Containers 2](http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-2/)
+- [Hello World: Why Cats, Cables & Containers 3](http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-3/)
+- [Hello World: Why Cats, Cables & Containers 4](http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-4/)

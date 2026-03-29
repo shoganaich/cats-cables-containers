@@ -4,15 +4,62 @@
     <title>Meta on Cats, Cables &amp; Containers</title>
     <link>http://localhost:1313/tags/meta/</link>
     <description>Recent content in Meta on Cats, Cables &amp; Containers</description>
+    <image>
+      <title>Cats, Cables &amp; Containers</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World: Why Cats, Cables &amp; Containers</title>
-      <link>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers/</link>
+      <title>Hello World: Why Cats, Cables &amp; Containers 1</title>
+      <link>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-1/</link>
       <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers/</guid>
+      <guid>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-1/</guid>
+      <description>&lt;p&gt;This is the first post on &lt;strong&gt;Cats, Cables &amp;amp; Containers&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What you can expect here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Containers and Kubernetes notes&lt;/li&gt;
+&lt;li&gt;Linux + networking deep dives&lt;/li&gt;
+&lt;li&gt;Homelab experiments&lt;/li&gt;
+&lt;li&gt;Clean write-ups with commands you can copy&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hello World: Why Cats, Cables &amp; Containers 2</title>
+      <link>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-2/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-2/</guid>
+      <description>&lt;p&gt;This is the first post on &lt;strong&gt;Cats, Cables &amp;amp; Containers&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What you can expect here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Containers and Kubernetes notes&lt;/li&gt;
+&lt;li&gt;Linux + networking deep dives&lt;/li&gt;
+&lt;li&gt;Homelab experiments&lt;/li&gt;
+&lt;li&gt;Clean write-ups with commands you can copy&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hello World: Why Cats, Cables &amp; Containers 3</title>
+      <link>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-3/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-3/</guid>
+      <description>&lt;p&gt;This is the first post on &lt;strong&gt;Cats, Cables &amp;amp; Containers&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What you can expect here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Containers and Kubernetes notes&lt;/li&gt;
+&lt;li&gt;Linux + networking deep dives&lt;/li&gt;
+&lt;li&gt;Homelab experiments&lt;/li&gt;
+&lt;li&gt;Clean write-ups with commands you can copy&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hello World: Why Cats, Cables &amp; Containers 4</title>
+      <link>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-4/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026/03/hello-world-why-cats-cables-containers-4/</guid>
       <description>&lt;p&gt;This is the first post on &lt;strong&gt;Cats, Cables &amp;amp; Containers&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;What you can expect here:&lt;/p&gt;
 &lt;ul&gt;

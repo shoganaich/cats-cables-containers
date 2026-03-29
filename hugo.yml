@@ -1,0 +1,121 @@
+baseURL: "https://blog.victorcardoso.dev/"
+languageCode: "en-us"
+title: "Cats, Cables & Containers"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: false
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+outputFormats:
+  llms:
+    mediaType: "text/plain"
+    baseName: "llms"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - llms
+
+permalinks:
+  blog: "/blog/:year/:month/:slug/"
+
+mainsections: ["blog"]
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 15
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: links
+      name: Links
+      url: "https://links.victorcardoso.dev/"
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+params:
+  env: production
+  description: "A technical blog about Linux, networking, containers, homelab, and software."
+  author: "shoganaich"
+  keywords: [Blog, Technical, Linux, Docker]
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    threshold: 0.4
+    distance: 1000
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
+
+  homeInfoParams:
+    Title: "Cats, Cables & Containers"
+    Content: >
+        - A public notebook on security, infrastructure, and homelab tinkering covering Linux and self-hosting notes, Docker/Compose projects, networking labs and security tooling, SDR/HackRF, Flipper Zero, and NFC/RFID tinkering, plus my ongoing programming learning through scripts and small projects.
+
+  socialIcons:
+    - name: github
+      title: View my Github
+      url: "https://github.com/shogani"
+    - name: link
+      title: More Links
+      url: "https://discord.gg/ahpmTvhVmp"
+  
+  editPost:
+    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
