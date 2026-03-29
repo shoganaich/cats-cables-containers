@@ -39,9 +39,9 @@ mainsections: ["blog"]
 
 menu:
   main:
-    - identifier: blog
-      name: Blog
-      url: /blog/
+    - identifier: Posts
+      name: Posts
+      url: /archives
       weight: 10
     - identifier: search
       name: Search
@@ -107,6 +107,9 @@ params:
     - name: link
       title: More Links
       url: "https://links.victorcardoso.dev/"
+    - name: rss
+      title: RSS
+      url: /blog/index.xml
 
 markup:
   goldmark:
